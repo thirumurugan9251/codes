@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class sample{
+public static void main(String [] args){
+
+ Scanner scan=new Scanner(System.in);
+    System.out.println("enter the length of rectangle");
+    int length=scan.nextInt();
+    System.out.println("enter the breadth of rectangle");
+    int breadth=scan.nextInt();
+    int area=length*breadth;
+    System.out.println("the area if the rectangle is"+ area);
+}}
