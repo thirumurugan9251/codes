@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ public class sample{
+     public static void main(String[]args){
+         Scanner scan=new Scanner(System.in);
+         System.out.println("enter the traffic light colour(red, yellow, green)");
+         String colour=scan.nextLine();
+         switch (colour){
+             case "red":
+                 System.out.println("stop");
+                 break;
+            case "yellow":
+                 System.out.println("get ready");
+                 break;
+            case "green":
+                 System.out.println("go");
+                 break;
+            default:
+                 System.out.println("invalid colour! enter red, yellow, green");
+         }
+         
+         }
+     }
