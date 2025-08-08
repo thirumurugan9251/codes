@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String name = "";
+        int age = 0;
+        String branch ="";
+        String grade ="";
+        int choice;
+
+        do {
+          
+            System.out.println("\n--- Data Entry Menu ---");
+            System.out.println("1. Enter Name");
+            System.out.println("2. Enter Age");
+            System.out.println("3. enter branch");
+            System.out.println("4.enter grade");
+            System.out.println("5. show all data");
+            System.out.print("Enter your choice: ");
+            choice = scan.nextInt();
+            scan.nextLine();
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter your name: ");
+                    name = scan.nextLine();
+                    break;
+                case 2:
+                    System.out.print("Enter your age: ");
+                    age = scan.nextInt();
+                    break;
+                case 3:
+                    System.out.print("Enter your branch: ");
+                    branch = scan.nextLine();
+                    break;
+                case 4:
+                    System.out.print("Enter your grade: ");
+                    grade = scan.nextLine();
+                    break;
+                case 5:
+                    System.out.println("\n--- Entered Data ---");
+                    System.out.println("Name: " + name);
+                    System.out.println("Age: " + age);
+                    System.out.println("Branch: " + branch);
+                    System.out.println("Grade: " + grade);
+                    break;
+                case 6:
+                    System.out.println("Exiting the program. Thank you!");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+            }
+
+        } while (choice != 5);
+
+        
+    }
+}
