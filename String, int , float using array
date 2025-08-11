@@ -1,0 +1,13 @@
+public class sample{
+    public static void main(String[]args){
+       int[]marks={80,60,50};
+       float[]age={20,19,18};
+       String[]names={"thiru"," sri", "muthu"};
+       
+
+          System.out.println(marks[0]);
+        System.out.println(age[0]);
+        System.out.println(names[0]);
+    
+    }}
+         
