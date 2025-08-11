@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class ellipseArea {
+    public static int calculateArea(int  a, int  b) {
+        return  a * b ; 
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the half of the minnor a ");
+        int a = scan.nextInt();
+        System.out.print("Enter the half of the major b");
+        int b = scan.nextInt();
+        int area = calculateArea(a*b);
+        System.out.println("Area of the ellispe = " + area);
+
+        scan.close();
+    }
+}
