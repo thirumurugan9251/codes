@@ -1,0 +1,12 @@
+public class sample{
+    public static void main(String[]args){
+        String[] a[]={{"1.thiru","2.sri","3.muthu","4.shek"},
+                   {"5.lotus","6.mahadeer","7.siva","8.kavin"},
+                   {"9.nadi","10.yogesh", "11.haris","12.gokul"},
+                   {"13.navin","14.kiruba","15.praveen","16.ismail"}};
+        for(int i=0; i<a.length; i++){
+            for(int j=0; j<a.length; j++){
+            System.out.println(a[i][j]);
+        }
+        }
+        }}
