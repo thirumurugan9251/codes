@@ -1,0 +1,13 @@
+public class sample {
+    public static void main(String[] args) {
+        String a ="java sql";
+        String reverse ="";
+        for(int i=a.length()-1; i>=0; i--){
+            reverse +=a.charAt(i);
+        }
+            System.out.println("original word "+a);
+            System.out.println("reverse word "+reverse);
+        }
+        }
+
+
