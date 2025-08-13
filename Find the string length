@@ -1,0 +1,9 @@
+public class StringLength {
+    public static void main(String[] args) {
+        String input = "Hello World";
+        int length = input.length();
+        
+        System.out.println("String: " + input);
+        System.out.println("Length: " + length);
+    }
+}
