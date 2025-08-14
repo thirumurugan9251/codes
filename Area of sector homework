@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[]args){
+        Scanner scan= new Scanner(System.in);
+        System.out.println("enter the radius(r):");
+        int r=scan.nextInt();
+        System.out.println("enter the angle of radians(0):");
+        int theta=scan.nextInt();
+        double area=0.5 * r * r * theta;
+        System.out.println("the area of the sector is:"+area);
+        
+        
+    }
+}
