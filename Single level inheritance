@@ -1,0 +1,17 @@
+class Numbers {
+    void integer() {
+        System.out.println("The numbers is integer.");
+    }
+}
+class Word extends Numbers {
+    void letter() {
+        System.out.println("The word in letter.");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Word myWord = new Word();
+        myWord.integer();  
+        myWord.letter(); 
+    }
+}
