@@ -1,0 +1,15 @@
+class Vehi{
+    void start(){
+        System.out.println("vehicle is starting...");
+    }}
+    class Cars extends Vehi{
+        void drive(){
+        System.out.println("car is driving...");
+    }}
+    public class Inheritance{
+        public static void main (String[] args){
+         Cars myCars=new Cars();
+        myCars.start();
+        myCars.drive();
+        }
+    }
