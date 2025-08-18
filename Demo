@@ -1,0 +1,21 @@
+class Player{
+    String name;
+    int age;
+    void display(){
+        System.out.println("Name:"+name);
+        System.out.println("Age:"+age);
+    }}
+    public class Demo{
+        public static void main (String[] args){
+         Player obj1=new Player();
+         obj1.name ="Thiru";
+         obj1.age=20;
+         
+        Player obj2=new Player();
+        obj2.name="Sri";
+        obj2.age=20;
+        
+        obj1.display();
+        obj2.display();
+        }
+    }
